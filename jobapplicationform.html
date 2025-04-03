@@ -1,0 +1,141 @@
+<html>
+<body>
+<form action="applysuccess.html" method="post">
+<h1 align="center">Job Application Form</h1>
+<p align="center">We are an Equal Opportunity Employer and committed to excellence through diversity.</p>
+<table align="center">
+<thead>
+<tr><th><h2>Personal Information</h2></th></tr></thead>
+<tbody>
+<tr><td><h4><label>Name</label></h4></td></tr>
+<tr><td><label for="n">First Name</label></td>
+<td><input type="text" name="n" id="n" placeholder="John"></td></tr>
+<tr><td><label for="m">Middle Name</label></td>
+<td><input type="text" name="m" id="m" placeholder="Doe"></td></tr>
+<tr><td><label for="l">Last Name</label></td>
+<td><input type="text" name="l" id="l" placeholder="J"></td></tr>
+<tr></tr>
+<tr><td>
+<h4><label for="p">Phone Number</label></h4></td>
+<td><input type="text" name="p" id="p"></td></tr>
+<tr><td><h4><label for="em">Email</label></h4></td>
+<td><input type="email" name="em" id="em" placeholder="example@india.com"></td></tr>
+<tr><td><h4>
+<label>Address</label></h4></td></tr>
+<tr><td><label for="s">Street Address</label></td>
+<td><input type="text" name="s" id="s"></td></tr>
+<tr><td><label for="sa">Street Address Line2</label></td>
+<td><input type="text" name="sa" id="sa"></td></tr>
+<tr><td><label>City</label></td>
+<td><select size="1" multiple>
+<option disabled>..select city...</option>
+<option>chennai</option>
+<option>Coimbatore</option>
+<option>Madurai</option>
+<option>Tiruppur</option>
+<option>Salem</option>
+<option>Erode</option>
+</select></td></tr>
+<tr><td><label>State/province</label></td>
+<td><select size="1" multiple>
+<option disabled>..select States...</option>
+<option>Tamilnadu</option>
+<option>Andhra Pradesh</option>
+<option>Telangana</option>
+<option>karnataka</option>
+<option>Assam</option>
+<option>Bihar</option>
+</select></td></tr>
+</tbody></table><br><br>
+<table align="center"><tbody>
+<tr><td><h4><label>What is the best time to contact you?</label></h4></td></tr>
+<tr><td><select size="1" multiple>
+<option disabled>..select Tine...</option>
+<option>morning</option>
+<option>Afternoon</option>
+<option>Evening</option>
+<option>Noon</option>
+</select></td></tr>
+<tr><td><h4><label for="j">Are you currently legally entitled to work in the country where the job is based?</label></h4></td></tr>
+<tr><td><input type="radio" name="j" id="j"<option>Yes</option></td></tr>
+<tr><td><input type="radio" name="j" id="j"<option>No</option></td></tr>
+<tr><td><h4><label for="e">If selected for employement are you willing to submit a background check?</label></h4></td></tr>
+<tr><td><input type="radio" name="e" id="e"<option>Yes</option></td></tr>
+<tr><td><input type="radio" name="e" id="e"<option>No</option></td></tr>
+<tr><td><h2>Position Information</h2></td></tr>
+<tr><td><h4><label>What position are you applying for?</label></h4></td>
+<td><h4><label>What is your desired Employement?</label><h4></td></tr>
+<tr><td><select size="1" multiple>
+<option>Please select</option>
+<option>Sales</option>
+<option>Marketing</option>
+<option>Human Resources</option>
+<option>It</option>
+<option>Customer service</option>
+</select></td>
+<td><select size="1" multiple>
+<option>Please select</option>
+<option>Full Time</option>
+<option>Part Time</option>
+<option>Internship<option>
+</select></td></tr>
+<tr><td><h4><label for="y">What is your Desired pay?</label></h4></td>
+<td><h4><label for="d">What is your available start Date?</label></h4></td></tr>
+<tr><td><input type="text" name="y" id="y" placeholder="ex.800 USD"></td>
+<td><input type="date" name="d" id="d"></td></tr>
+<tr><td><h4><label for="c">Have you worked for a company before?</label></h4></td></tr>
+<tr><td><input type="radio" name="c" id="c"<option>Yes</option></td></tr>
+<tr><td><input type="radio" name="c" id="c"<option>No</option></td></tr>
+<tr><td><h2>Education</h2></td></tr>
+<tr><td><label for="i">College/Institution</label></td>
+<td><label for="t">Department</label></td></tr>
+<tr><td><input type="text" name="i" id="i"></td>
+<td><input type="text" name="t" id="t"></td></tr>
+<tr><td><label for="s">Start Year</label></td>
+<td><label for="e">End Year</label></td></tr>
+<tr><td><input type="year" name="s" id="s"></td>
+<td><input type="year" name="e" id="e"></td></tr>
+
+<tr><td><h2>Reference</h2></td></tr>
+<tr><td><label for="r">Reference Name</label></td>
+<td><label>Relationship</label></td></tr>
+<tr><td><input type="text" name="r" id="r"></td>
+<td><select size="1" multiple>
+<option>Family</option>
+<option>Friend</option>
+<option>You were a client of him/her</option>
+<option>seen by a advertisements<option>
+</select></td></tr>
+<tr><td><label for="m">Contact Information</label></td></tr>
+<tr><td><input type="text" name="m" id="m"></td></tr>
+<tr><td><h2>Attachments</h2></td></tr>
+<tr><td><form enctype="multipart/form-data" method="post">
+<label>please upload your cv here.</label><br><br>
+<input type="file" accept=".pdf">
+<form></td></tr>
+<br><br><br>
+<tr><td><input type="checkbox" value="agree" name="g">
+<label>I agree to<a href="term.html">terms and conditions.</label></td></td>
+<tr><td><label for="e">Date</label></td>
+<td><label for="b">Signature</label></td></tr>
+<tr><td><input type="date" name="e" id="e"></td>
+<td><input type="table" name="b" id="b"></td></tr>
+<tr></tr><tr></tr>
+<tr><td><input type="Reset" value="clear"></td>
+<td><input type="Submit" value="Submit form"></td></tr>
+</tbody>
+</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
